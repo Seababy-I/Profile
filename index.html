@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Priyali Jain | Personal Profile</title>
+  <meta name="description" content="Priyali Jain, third-year B.Tech Computer & Communication Engineering student at MIT Manipal interested in AI and research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="nav-brand" href="#top">Priyali Jain</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <div class="hero-wrap">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-hello">Hi, I'm</p>
+        <h1>Priyali Jain</h1>
+        <p class="hero-subtitle">Computer &amp; Communication Engineering Student | AI &amp; Research Enthusiast</p>
+        <p class="hero-intro">
+          I'm a third-year CCE student at Manipal Institute of Technology, interested in
+          artificial intelligence, research, and building technology that solves real-world problems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="https://github.com/Seababy-I" target="_blank" rel="noopener">See my GitHub</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="images/profile.png" alt="Portrait of Priyali Jain" width="400" height="500">
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2>About me</h2>
+          <p>
+            I'm a third-year Computer &amp; Communication Engineering student at Manipal Institute
+            of Technology with an interest in Artificial Intelligence, research, and technology.
+            I enjoy exploring how technology can be used to solve practical problems and create
+            meaningful user experiences.
+          </p>
+          <p>
+            Alongside academics, I have built full-stack and AI projects, researched AI literacy
+            among engineering students, and presented machine learning work at IEEE CRAIS 2025.
+            I also enjoy web development, UI/UX design, and learning new technologies.
+          </p>
+        </div>
+        <aside class="about-facts" aria-label="Quick facts">
+          <dl>
+            <dt>Studying</dt>
+            <dd>B.Tech, Computer &amp; Communication Engineering</dd>
+            <dt>At</dt>
+            <dd>Manipal Institute of Technology</dd>
+            <dt>Batch</dt>
+            <dd>2028</dd>
+            <dt>Focus</dt>
+            <dd>AI, Research &amp; Technology</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2>Education &amp; Experience</h2>
+        <ol class="timeline">
+          <li>
+            <h3>B.Tech, Computer &amp; Communication Engineering</h3>
+            <p class="meta">Manipal Institute of Technology, 2024 to 2028</p>
+            <p>Currently pursuing a B.Tech in Computer &amp; Communication Engineering with coursework spanning programming, computer networks, communication systems, and embedded technologies.</p>
+          </li>
+          <li>
+            <h3>Virtual Project Internship, Infosys Springboard</h3>
+            <p class="meta">Individual project-based internship, ongoing</p>
+            <p>Building an AI-powered soil analytics platform for nutrient assessment and crop advisory, combining CNN-based soil classification with a recommendation engine in a mobile-first web app.</p>
+          </li>
+          <li>
+            <h3>AI Literacy Research</h3>
+            <p class="meta">Research project, proposal submitted to NARST</p>
+            <p>Mixed-methods study of AI literacy among engineering students (N = 94), using exploratory factor analysis, Sentence-BERT semantic scoring, thematic analysis, and multiple linear regression in JASP.</p>
+          </li>
+          <li>
+            <h3>Mental Health Prediction</h3>
+            <p class="meta">Presented at IEEE CRAIS 2025</p>
+            <p>Machine learning classification work built with Python and Scikit-learn to predict mental health outcomes, presented at an IEEE conference.</p>
+          </li>
+          <li>
+            <h3>Graphic Design Intern, Project Ecosanitation</h3>
+            <p class="meta">April to July 2025</p>
+            <p>Created design work for a sanitation-focused initiative.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <article class="project">
+          <figure class="project-shot">
+            <img src="images/image_detector.png" alt="Screenshot of the AI Image Detector showing a prediction result" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <h3>AI Image Detector</h3>
+            <p>An end-to-end computer vision system that tells whether an image is AI-generated or a real photograph, reaching 89% accuracy with a ResNet18 model. A FastAPI backend serves predictions to a React interface, deployed on Vercel.</p>
+            <ul class="tags"><li>PyTorch</li><li>ResNet18</li><li>FastAPI</li><li>React</li><li>89% accuracy</li></ul>
+            <p class="project-links">
+              <a href="https://synthetic-image-detection.vercel.app" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/Seababy-I/Synthetic-Image-Detection" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project-shot">
+            <img src="images/pravahai.png" alt="Screenshot of the PravahAI smart traffic project" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <h3>PravahAI</h3>
+            <p>An AI-powered urban traffic intelligence platform that analyses traffic violations and predicts event-driven congestion. It uses computer vision for vehicle detection and violation evidence, a "Shadow Event" method to spot recurring disruptions, and Gemini AI for risk insights. Qualified for Round 2 of Flipkart GRID 8.0.</p>
+            <ul class="tags"><li>Python</li><li>Computer Vision</li><li>FastAPI</li><li>React</li><li>Gemini AI</li></ul>
+            <p class="project-links">
+              <a href="https://pravah-ai-alpha.vercel.app/dashboard" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/Seababy-I/PravahAI" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project-shot">
+            <img src="images/roomie.png" alt="Screenshot of the Roomie roommate finder" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <h3>Roomie</h3>
+            <p>A full-stack roommate-finder app with Google sign-in, an approval workflow for matching, and search filters. Deployed end to end.</p>
+            <ul class="tags"><li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Google OAuth</li></ul>
+            <p class="project-links">
+              <a href="https://roomie-seababy-is-projects.vercel.app/" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/Seababy-I/Roomie" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </div>
+        </article>
+        
+        <article class="project">
+          <figure class="project-shot">
+            <img src="images/soil_analysis.png" alt="Screenshot of the soil analytics app showing a soil health report" loading="lazy">
+          </figure>
+          <div class="project-body">
+            <h3>AI-Powered Soil Analytics</h3>
+            <p>A farmer-facing progressive web app built for my Infosys Springboard project internship. It classifies soil from a photo, takes nutrient and pH readings, and returns a soil health score with crop suggestions in English, Hindi, and Kannada.</p>
+            <ul class="tags"><li>Next.js</li><li>EfficientNet</li><li>PWA</li><li>Multilingual</li></ul>
+          </div>
+        </article>
+
+        <h3 class="more-title">More projects</h3>
+        <ul class="more-projects">
+          <li>
+            <h4>Intelligent Gift Recommendation System</h4>
+            <p>A GenAI agent app that uses the Claude API with a utility-scoring mechanism to recommend gifts. An IEEE paper on it is in progress.</p>
+            <span class="more-tech">Claude API · FastAPI · React</span>
+          </li>
+          <li>
+            <h4>Campus Event Management System</h4>
+            <p>A role-based CRUD web app for campus events, backed by a normalized relational schema.</p>
+            <span class="more-tech">Flask · Oracle SQL · HTML/CSS/JS</span>
+          </li>
+          <li>
+            <h4>AI Stock Market Telegram Bot</h4>
+            <p>A real-time market assistant that combines external APIs with an LLM, delivered through Telegram.</p>
+            <span class="more-tech">Python · APIs · LLM</span>
+          </li>
+          <li>
+            <h4>ACM-W Manipal Website</h4>
+            <p>The official website for the ACM-W Manipal student chapter.</p>
+            <span class="more-tech">React</span>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="pills">
+              <li>Python</li><li>C</li><li>C++</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>AI &amp; Machine Learning</h3>
+            <ul class="pills">
+              <li>PyTorch</li><li>Scikit-learn</li><li>Computer Vision</li><li>CNNs</li><li>LLMs</li><li>Prompt Engineering</li><li>AI Agents</li><li>LangGraph</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Web &amp; Backend</h3>
+            <ul class="pills">
+              <li>React</li><li>Tailwind CSS</li><li>Node.js</li><li>Express</li><li>FastAPI</li><li>Flask</li><li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Data, Cloud &amp; Tools</h3>
+            <ul class="pills">
+              <li>MongoDB</li><li>Oracle SQL</li><li>BigQuery</li><li>Google Cloud</li><li>Vercel</li><li>Git &amp; GitHub</li><li>Power BI</li><li>Excel</li><li>Figma</li><li>Canva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership & Certifications -->
+    <section id="leadership" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Leadership</h2>
+          <ul class="plain-list">
+            <li><strong>Class Representative</strong> Computer &amp; Communication Engineering</li>
+            <li><strong>ACM-W Manipal</strong> Management Committee</li>
+            <li><strong>Apple Developers' Group</strong> Management Committee</li>
+            <li><strong>The Data Alchemists</strong> Management Committee</li>
+            <li><strong>LeanIn Manipal</strong> Management Committee</li>
+            <li><strong>IECSE Manipal</strong> Working Committee</li>
+            <li><strong>Chords &amp; Co.</strong> Graphic Design, HR, PR</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Certifications</h2>
+          <ul class="plain-list">
+            <li><strong>Google Cloud</strong> Gen AI Academy 2.0; skill badges in Data Cloud, BigQuery streaming analytics, and ML APIs</li>
+            <li><strong>Infosys Springboard</strong> Generative AI, Deep Learning, Prompt Engineering, AI Primer</li>
+            <li><strong>IBM</strong> Agentic AI (Coursera)</li>
+            <li><strong>Agentic AI</strong> LangChain and LangGraph; Fundamentals of Building AI Agents</li>
+            <li><strong>Deloitte Australia</strong> Data Analytics Job Simulation (Forage)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests" class="section section-alt">
+      <div class="container">
+        <h2>Interests</h2>
+        <ul class="interest-list">
+          <li><strong>Artificial Intelligence</strong> Exploring AI and machine learning, especially healthcare AI and human behaviour analysis.</li>
+          <li><strong>Research</strong> Interested in research, experimentation, and understanding how technology affects people.</li>
+          <li><strong>UI/UX &amp; Design</strong> Enjoy creating interfaces that are intuitive, functional, and visually appealing.</li>
+          <li><strong>Technology</strong> Curious about wearable computing, mobile intelligent systems, and building solutions for real-world problems.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Open to collaborations, research projects, and internships. Say hello.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:priyalijain114@gmail.com">Email</a></li>
+          <li><a href="https://github.com/Seababy-I" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/priyalijain" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Priyali Jain</p>
+  </footer>
+
+</body>
+</html>
